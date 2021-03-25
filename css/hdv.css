@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#foto{
+    width: 200px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.datos{
+    padding: 25px;
+    border: 2px solid black;
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+    float: left;
+}
+
+.datos h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.datos p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.info{
+    padding: 25px;
+    width: 1000px;
+    float: right;
+    margin-top: 45px;
+}
+
+.info h2{
+    padding: 15px;
+    text-align: left;
+    font-size: 28px;
+}
+
+#nombre{
+    padding: 20px;
+    text-align: left;
+    font-size: 35px;
+}
+
+.info p{
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.lista{
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.lista li{
+    padding-left: 50px;
+    list-style-position: inside;
+}

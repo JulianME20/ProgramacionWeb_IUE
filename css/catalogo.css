@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.producto{
+    display: inline-block;
+}
+
+.catalogo{
+    border: 1px solid black;
+    width: 1310px;
+    height: auto;
+    margin: 6px;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(23, 182, 71, 0.973);
+    text-align: center;
+}
+
+.cuadro_producto{
+    padding: 10px;
+    margin: 8px;
+    width: 330px;
+    border-radius: 8px;
+    float: left;
+    background: rgb(202, 241, 207);
+}
+
+.cuadro_producto:hover{
+    box-shadow: 0 8px 16px 0 black;
+}
+
+.cuadro_producto > h2{
+    text-align: center;
+    font-size: 24px;
+}
+
+.cuadro_producto > img{
+    width: 308px;
+    height: 340px;
+    padding: 5px;
+    margin: 6px;
+    border-radius: 12px;
+}
+
+.cuadro_producto > h3{
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.descripcion{
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 28px;
+}
+
+.cuadro_producto > h4{
+    text-align: right;
+    padding: 7px;
+    font-size: 18px;
+    margin-right: 33px;
+    font-size: 18px;
+}
+
+.cuadro_producto > p{
+    text-align: right;
+    padding: 7px;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.boton{
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px;
+    background: rgba(23, 182, 71, 0.973);
+    border: 0.8px solid black;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.carrito{
+    padding: 10px;
+    margin: 8px;
+    width: 570px;
+    height: 632px;
+    border-radius: 8px;
+    float: left;
+    background: rgb(202, 241, 207);
+    text-align: center;
+}
+
+.carrito > h2{
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+
+.detalles{
+    border: 1px solid black;
+    border-radius: 8px;
+    display: inline-block;
+}
+.detalles img{
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.detalles p{
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    margin: 5px;
+}
+
+.detalles div{
+    display: inline-block;
+}
+
+.nombre{
+    float: left;
+    margin-top: 40px;
+    width: 180px;
+    text-align: center;
+}
+
+.precio{
+    float: right;
+    margin-top: 50px;
+}

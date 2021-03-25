@@ -1,0 +1,61 @@
+.tabla tr td{
+    border: 1px solid black;
+}
+
+#contenedor_tabla{
+    margin-left: 415px;
+}
+
+.tabla{
+    font-size: 20px;
+    border-collapse: collapse;
+}
+.tabla td{
+    padding: 5px;
+    text-align: center;
+}
+
+.listado{
+    background:  rgba(26, 24, 24, 0.993);
+    text-align: center;
+}
+
+.listado > li{
+    display: inline-block;
+}
+
+.listado > li > a{
+    display: block;
+    padding: 13px 13px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+.listado li a:hover{
+    background: rgb(211, 211, 211, 0.7);
+    transition: all .3s;
+}
+
+.definicion{
+    width: 120px;
+    height: auto;
+    display: none;
+    opacity: 0;
+    transition: opacity 1.5ss;
+}
+
+.definicion p{
+    color: white;
+    text-align: center;
+}
+
+.listado li:hover .definicion{
+    display: block;
+    opacity: 1;
+}
+
+.palabras{
+    background: rgb(0, 0, 255);
+}
