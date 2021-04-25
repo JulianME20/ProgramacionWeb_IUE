@@ -1,0 +1,62 @@
+h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+    text-decoration-line: underline;
+}
+p{
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+}
+.lista li{
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+}
+.parte{
+    border: 1px solid black;
+    width: 1303px;
+    margin-top: 65px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background: linear-gradient(90deg, #000, #323232);
+    color: white;
+}
+.consulta{
+    background: rgb(27, 26, 26);
+}
+
+.animada::before, .animada::after{
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    background: linear-gradient(120deg, #79fb00, #031ba5, #ff004c, #fb0094, #ff6600, #04c2e4, #adad02, #00c3ff);
+    background-size: 300%;
+    width: calc(100% + 16px);
+    height: calc(100% + 16px);
+    z-index: -1;
+    animation: BGgradient 15s ease infinite;
+}
+
+@keyframes BGgradient{
+    0%{
+        background-position: 0% 200%;
+    }
+    50%{
+        background-position: 200% 0%;
+    }
+    100%{
+        background-position: 0% 330%;
+    }
+}
+
+.animada:after{
+    filter: brightness(1.4);
+    filter: drop-shadow(16px 16px 20px rgb(248, 220, 97));
+    filter: blur(15px);
+}
+
