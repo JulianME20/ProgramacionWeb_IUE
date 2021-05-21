@@ -1,0 +1,44 @@
+[
+    {
+      "precio": 50000,
+      "id": 1,
+      "title": "Terrario tipo 1",
+      "thumbnailUrl": "images/Terrario1.jpeg",
+      "descripcion": "Terrario con diferentes tipos de plantas suculentas para darle al hogar el mejor toque familiar."
+    },
+    {
+      "precio": 50000,
+      "id": 2,
+      "title": "Terrario tipo 2",
+      "thumbnailUrl": "images/Terrario2.jpeg",
+      "descripcion": "Terrario con diferentes tipos de plantas suculentas para darle al hogar el mejor toque familiar."
+    },
+    {
+      "precio": 30000,
+      "id": 3,
+      "title": "Ambientador",
+      "thumbnailUrl": "images/Ambientador.jpeg",
+      "descripcion": "Ambientador eléctrico con velas aromatizantes para darle a tu hogar la mejor sensacion de tranquilidad y frescura."
+    },
+    {
+      "precio": 67000,
+      "id": 4,
+      "title": "Arreglo frutal",
+      "thumbnailUrl": "images/Frutero.jpeg",
+      "descripcion": "Centro de mesa muy llamativo adornado con diferentes frutas para decorar tu comedor con el mejor gusto."
+    },
+    {
+      "precio": 35000,
+      "id": 5,
+      "title": "Portavelas",
+      "thumbnailUrl": "images/PortaVelas.jpg",
+      "descripcion": "Elegante y llamativo portavelas par darle luz a tu hogar con las mejores fragancias"
+    },
+    {
+      "precio": 40000,
+      "id": 6,
+      "title": "Terrario forma de foco",
+      "thumbnailUrl": "images/TerrarioFoco.jpg",
+      "descripcion": "Hermoso terrario para decorar cualquier rincon de tu casa y darle un toque especial de la mano de la naturaleza"
+    }
+  ]

@@ -4,27 +4,26 @@
 @import url(catalogo.css);
 @import url(consulta1.css);
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 body{
-    background: lightgray;
-    font-family: 'Oxygen', sans-serif;
+    background: #4ECDC4;
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
+    background: linear-gradient(to right, #556270, #4ECDC4);
+
 }
 
 #contenedor{
     width: 100%;
     height: 100%;
+    background: rgb(48, 45, 45);
 }
 
 #header1{
     background: rgb(48, 45, 45);
-    padding: 10px;
 }
 
 #header1 h1{
+    background: rgb(48, 45, 45);
+    border: none;
     text-align: center;
     color: white;
     font-size: 45px;
@@ -32,6 +31,7 @@ body{
 
 .navegacion{
     background: rgba(26, 24, 24, 0.993);
+    height: auto;
 }
 
 .navegacion ul{
@@ -80,22 +80,24 @@ body{
 
 .articulo{
     margin-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
+    margin-bottom: 7px;
+    padding-bottom: 25px;
     padding-top: 15px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
 }
 
 #contenido h2{
     text-align: center;
-    padding-top: 15px;
-    font-size: 40px;
+    padding-top: 10px;
+    font-size: 45px;
+    background: none;
+    border: none;
+    color: white;
 }
 
 .articulo p{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
+    color: white;
 }
 
 img{

@@ -3,6 +3,8 @@ h2{
     padding: 15px;
     font-size: 35px;
     text-decoration-line: underline;
+    border: none;
+    background: none;
 }
 p{
     text-align: center;

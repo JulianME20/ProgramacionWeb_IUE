@@ -1,19 +1,3 @@
-.tabla tr td{
-    border: 1px solid black;
-}
-
-#contenedor_tabla{
-    margin-left: 415px;
-}
-
-.tabla{
-    font-size: 20px;
-    border-collapse: collapse;
-}
-.tabla td{
-    padding: 5px;
-    text-align: center;
-}
 
 .listado{
     background:  rgba(26, 24, 24, 0.993);
@@ -56,6 +40,131 @@
     opacity: 1;
 }
 
-.palabras{
-    background: rgb(0, 0, 255);
-}
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Pangolin&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato:wght@300&family=Pangolin&family=Varela+Round&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+  }
+  
+  h1,
+  h2,
+  #solveButton,
+  #newGameButton,
+  .listWord {
+    padding: 5px;
+  }
+  
+  h1,
+  h2,
+  #solveButton,
+  #newGameButton {
+    border: 2px black solid;
+    border-radius: 8px;
+  }
+  
+  h1,
+  h2,
+  .cell,
+  #wordlist {
+    background-color: white;
+  }
+  
+  h1,
+  h2 {
+    margin: 10px auto 10px auto;
+    display: table;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  body{
+    background-image: linear-gradient(rgb(255, 38, 38), yellow, orange);
+  }
+  
+  #wordboard {
+    margin: 20px auto 0 auto;
+    border: 2px black solid;
+    display: table;
+    min-width: 600px;
+    background: white;
+  }
+  
+  .boardRow {
+    display: table-row;
+  }
+  
+  .cell {
+    margin: 0 auto;
+    border: none;
+    display: table-cell;
+    height: 30px;
+    width: 30px;
+    font-size: 17px;
+    padding: 0;
+    outline: 0;
+  
+    cursor: default;
+    --moz-user-select: none;
+    --ms-user-select: none;
+    --khtml-user-select: none;
+    --webkit-user-select: none;
+    --webkit-touch-callout: none;
+  }
+  
+  .cell:hover {
+    background-color: rgb(64, 204, 36);
+  }
+  
+  .cell.selectable {
+    background-color: rgb(191, 247, 181);
+  }
+  
+  .cell.selected {
+    background-color: rgb(64, 204, 36);
+  }
+  
+  .cell.found {
+    background-color: rgb(76, 221, 47);
+    border: 1px rgb(49, 47, 47) solid;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  #wordlist {
+    margin: 40px auto 0 auto;
+    border: 2px black solid;
+    display: table;
+    min-width: 600px;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .listRow {
+    display: table-row;
+  }
+  
+  .listWord {
+    display: table-cell;
+    font-family: 'Pangolin', cursive;
+  }
+  
+  .listWord.found {
+    color: rgb(127, 167, 129);
+    text-decoration: line-through;
+  }
+  
+  #solveButton,
+  #newGameButton {
+    background-color: rgb(157, 189, 15);
+    margin: 20px auto 20px auto;
+    display: block;
+    outline: 0;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+  }
